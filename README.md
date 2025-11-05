@@ -1,9 +1,18 @@
-![Devvit Logo](static/img/logo.svg)
-
-# Reddit's Developer Platform - Devvit Docs
-
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/ved.petkar/src/devvit-docs/build/assets/images/logo-e945d6d39bba51e0217352e12ec030b7.svg?version%3D1762361573850)
-This is the codebase which powers [https://developers.reddit.com/docs](https://developers.reddit.com/docs).
+<div align="center">
+  <h1 align="center">
+    Devvit Docs
+    <br />
+    <br />
+    <a href="https://developers.reddit.com/docs">
+      <img src="static/img/devvit_icon.svg" alt="Devvit Docs" width="128px">
+    </a>
+  </h1>
+  <subtitle> Documentation for Reddit's Developer Platform</subtitle>
+</div>
+<p align="center">
+  <a href="https://developers.reddit.com/new"><img src="static/img/create-app-badge.svg" align="right" alt="Create a Devvit App" /></a>
+  <a href="https://developers.reddit.com/docs"><img src="static/img/create-app-badge.svg" align="right" alt="Read the docs" /></a>
+</p>
 
 ## Contribution
 

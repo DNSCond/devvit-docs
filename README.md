@@ -9,9 +9,10 @@
   </h1>
   <subtitle> Documentation for Reddit's Developer Platform</subtitle>
 </div>
+<br />
 <p align="center">
-  <a href="https://developers.reddit.com/new"><img src="static/img/create-app-badge.svg" align="right" alt="Create a Devvit App" /></a>
-  <a href="https://developers.reddit.com/docs"><img src="static/img/create-app-badge.svg" align="right" alt="Read the docs" /></a>
+  <a href="https://developers.reddit.com/new"><img src="static/img/create-app-badge.svg" alt="Create a Devvit App" /></a>
+  <a href="https://developers.reddit.com/docs"><img src="static/img/read-docs-badge.svg" alt="Read the docs" /></a>
 </p>
 
 ## Contribution

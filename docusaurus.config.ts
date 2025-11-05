@@ -2,7 +2,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
-const baseUrl = process.env.DOCUSAURUS_BASE_URL ?? "/";
+const baseUrl = process.env.DOCUSAURUS_BASE_URL ?? "/docs-staging/";
 
 const LATEST_DEVVIT_VERSION = "0.12"; // update-versioned-docs.mjs sets this automatically
 
@@ -43,7 +43,8 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "reddit", // Usually your GitHub org/user name.
-  projectName: "devvit", // Usually your repo name.
+  projectName: "reddit.github.io", // Usually your repo name.
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want

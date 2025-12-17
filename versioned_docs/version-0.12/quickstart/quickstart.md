@@ -2,12 +2,6 @@
 
 This tutorial takes you through the step-by-step process of building your first app with Devvit. It should take you about 1 minute to complete. Once complete, you'll be able to see your app in a Reddit post
 
-## Video Tutorial:
-
-Prefer a video walkthrough? This video shows you how to get started with Devvit and demonstrates a workflow for quickly making changes to your app with an AI-powered IDE.
-
-<iframe width="400" height="225" src="https://www.youtube.com/embed/1ZM1tKI4SnU" title="Devvit Quickstart Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## Try it out
 
 This starter template will [create an app like this for you](https://www.reddit.com/r/test_devvit_demos/comments/1mk4ql4/test3jsdevvit/) running on Reddit. It consists of a simple react-based counter app that calls backend functions.
@@ -20,7 +14,7 @@ This starter template will [create an app like this for you](https://www.reddit.
 ## Environment setup
 
 1. Install Node.JS and NPM ([instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
-2. Go to `https://developers.reddit.com/new` and choose the React template.
+2. Go to [developers.reddit.com/new](https://developers.reddit.com/new) and choose the React template.
 3. Go through the wizard. You will need to create a Reddit account and connect it to Reddit developers.
 4. Follow the instructions on your terminal.
 
@@ -72,7 +66,7 @@ This special file in the root of the project contains configurations for many of
 
 You need to test your app on a subreddit. Your backend calls will not work when testing the app locally. For that we will be leveraging Devvit's Playtest tool. If you have a preference for a specific subreddit to playtest, change the `package.json` file to include your subreddit name in `dev:devvit`:
 
-```javascript
+```javascript title="package.json"
 "scripts": {
     //...
     "dev:devvit": "devvit playtest r/MY_PREFERRED_SUBREDDIT",

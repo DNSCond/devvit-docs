@@ -1,4 +1,4 @@
-[**@devvit/public-api v0.12.1-dev**](../README.md)
+[**@devvit/public-api v0.12.6-dev**](../README.md)
 
 ---
 
@@ -150,6 +150,7 @@
 - [SubredditType](type-aliases/SubredditType.md)
 - [UnreadCountResponse](type-aliases/UnreadCountResponse.md)
 - [UpdatePageSettingsOptions](type-aliases/UpdatePageSettingsOptions.md)
+- [UpdateWidgetData](type-aliases/UpdateWidgetData.md)
 - [UpdateWikiPageOptions](type-aliases/UpdateWikiPageOptions.md)
 - [UserFlair](type-aliases/UserFlair.md)
 - [UserFlairPageOptions](type-aliases/UserFlairPageOptions.md)
@@ -159,6 +160,7 @@
 - [Vault](type-aliases/Vault.md)
 - [Visibility](type-aliases/Visibility.md)
 - [WikiEditMode](type-aliases/WikiEditMode.md)
+- [WikiPageRevisionId](type-aliases/WikiPageRevisionId.md)
 - [WithUserData](type-aliases/WithUserData.md)
 
 ## Variables

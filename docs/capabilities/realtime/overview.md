@@ -39,7 +39,7 @@ This separation ensures that message sending is controlled by server-side logic 
 
 Connects to a realtime channel for receiving messages.
 
-```tsx
+```tsx title="client/index.ts"
 import { connectRealtime } from '@devvit/web/client';
 
 const connection = await connectRealtime({
@@ -59,7 +59,7 @@ const connection = await connectRealtime({
 #### Parameters
 
 - `opts` - Connection options object
-  - `channel` (string) - The name of the channel to connect to
+  - `channel` (string) - The name of the channel to connect to. Note, you cannot use the `:` character in the channel name
   - `onConnect?` (function) - Optional callback called when connection is established
   - `onDisconnect?` (function) - Optional callback called when connection is lost
   - `onMessage` (function) - Required callback called when a message is received
@@ -94,7 +94,7 @@ This method:
 
 The server-side plugin for sending messages to realtime channels.
 
-```tsx
+```tsx title="server/index.ts"
 import { realtime } from '@devvit/web/server';
 
 // Send a message to a channel
@@ -117,7 +117,7 @@ Sends a message to a specific channel.
 
 ### Client-side: basic channel connection
 
-```tsx
+```tsx title="client/index.ts"
 import { connectRealtime } from '@devvit/web/client';
 
 // Connect to a channel
@@ -135,7 +135,7 @@ await connection.disconnect();
 
 ### Client-side: connection lifecycle management
 
-```tsx
+```tsx title="client/index.ts"
 import { connectRealtime } from '@devvit/web/client';
 
 const connection = await connectRealtime({
@@ -159,7 +159,7 @@ const connection = await connectRealtime({
 
 ### Server-side: sending messages
 
-```tsx
+```tsx title="server/index.ts"
 import { realtime } from '@devvit/web/server';
 
 // Send a simple message

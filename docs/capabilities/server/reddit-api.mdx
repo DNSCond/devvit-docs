@@ -57,7 +57,7 @@ export const createPost = async () => {
     },
     subredditName: subredditName,
     title: 'New Post',
-    splash: { appDisplayName: 'Test App' },
+    entry: 'default',
   });
 };
   ```
@@ -92,6 +92,11 @@ function createPost(context: Devvit.Context) {
 </Tabs>
 
 ### Submitting a comment
+
+:::note
+Auto-comments should be used to spark conversation in the post comments, but you should avoid lower-signal updates (e.g., level/progress pings).
+:::
+
 
 <Tabs>
     <TabItem value="web" label="Devvit Web">

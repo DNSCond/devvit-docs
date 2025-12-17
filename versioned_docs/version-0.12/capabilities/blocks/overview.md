@@ -1,35 +1,24 @@
 # Overview
 
+:::warning
+
+With the introduction of [inline webviews](../server/launch_screen_and_entry_points/view_modes_entry_points), Devvit Web is now the recommended approach for all interactive experiences that need in-feed interactions or pop-out views.
+
+The Blocks documentation below remains to support developers maintaining existing apps built with Blocks.
+
+:::
+
 Devvit Blocks is a framework that allows you to build apps with Reddit native components. Blocks is optimized for speed and ease of use, but is not recommended for games due to technical constraints and limitations.
+
+:::warning
+With the introduction of [0.12.2](../../changelog.md#devvit-0122-inline-mode-launch-screensexpanded-app-experiences-and-developer-logs), you can now render apps directly within the feed using Devvit Web. This makes Devvit Web the recommended path for all new projects.
+:::
 
 ## Examples
 
 ### [r/WallStreetBets](https://www.reddit.com/r/wallstreetbets)
 
 Wall Street Bets's daily thread tracks stock performance and discussion on r/wallstreetbets. It's able to render in the feed quickly, and refresh automatically as new data is available.
-
-Syllacrostic is a word game built with Devvit Blocks by u/JeffBritches. Note that playing the game also does not trigger a modal or full screen experience, because it is built completely in Devvit Blocks.
-
-## Devvit Blocks vs. Devvit Web
-
-|                                        | Devvit Blocks            | Devvit Web |
-| :------------------------------------- | :----------------------- | :--------- |
-| **Interactive In-feed**                | ✅                       | ❌         |
-| **Built-in Reddit Design System**      | ✅                       | ❌         |
-| **Write once, run on iOS/Android/Web** | ✅                       | ✅         |
-| **Full Screen / Focus Mode**           | ❌                       | ✅         |
-| **Sounds**                             | ❌                       | ✅         |
-| **3D Graphics**                        | ❌                       | ✅         |
-| **Animations**                         | Limited to Animated GIFs | ✅         |
-| **Standard Web Development Stack**     | ❌                       | ✅         |
-
-## Working together
-
-It's important to notice that Devvit Blocks and Devvit Web are not mutually exclusive. You can use Devvit Blocks to create an interactive preview post, and trigger a Devvit Web modal / full screen experience from a button click inside of the interactive post. Some examples of apps that mix both Devvit Web and Devvit Blocks are:
-
-- [r/hightier](https://www.reddit.com/r/hightier) (_by u/mutual_disagreement_)
-- [r/FlappyGoose](https://www.reddit.com/r/FlappyGoose) (_by u/thejohhnyr_)
-- [r/chessquiz](https://www.reddit.com/r/chessquiz) (_by u/FlyingLaserTurtle_)
 
 ## Available blocks
 

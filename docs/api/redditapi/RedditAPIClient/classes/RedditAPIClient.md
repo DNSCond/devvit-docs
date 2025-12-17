@@ -1,4 +1,4 @@
-[**@devvit/public-api v0.12.2-dev**](../../README.md)
+[**@devvit/public-api v0.12.7-dev**](../../README.md)
 
 ---
 
@@ -1979,6 +1979,30 @@ A Promise that resolves with an array of FlairTemplate objects.
 
 ---
 
+<a id="getuserkarmafromcurrentsubreddit"></a>
+
+### getUserKarmaFromCurrentSubreddit()
+
+> **getUserKarmaFromCurrentSubreddit**(`username`): `Promise`\<`GetUserKarmaForSubredditResponse`\>
+
+Returns the karma for a given user in the current subreddit.
+
+#### Parameters
+
+##### username
+
+`string`
+
+The username of the user to get the karma for. e.g. 'spez'
+
+#### Returns
+
+`Promise`\<`GetUserKarmaForSubredditResponse`\>
+
+The GetUserKarmaForSubredditResponse, containing the user's karma for posts and comments in the subreddit.
+
+---
+
 <a id="getvaultbyaddress"></a>
 
 ### getVaultByAddress()
@@ -2087,7 +2111,7 @@ A Listing of User objects.
 
 ### getWikiPage()
 
-> **getWikiPage**(`subredditName`, `page`): `Promise`\<[`WikiPage`](../../models/classes/WikiPage.md)\>
+> **getWikiPage**(`subredditName`, `page`, `revisionId`?): `Promise`\<[`WikiPage`](../../models/classes/WikiPage.md)\>
 
 Get a wiki page from a subreddit.
 
@@ -2104,6 +2128,13 @@ The name of the subreddit to get the wiki page from.
 `string`
 
 The name of the wiki page to get.
+
+##### revisionId?
+
+`` `${string}-${string}-${string}-${string}-${string}` ``
+
+The revision ID of the wiki page version to get. Setting this value will return the wiki page
+version at that revision, and leaving it empty will return the latest version.
 
 #### Returns
 
@@ -2958,6 +2989,30 @@ To unsubscribe on behalf of a user, please contact Reddit.
 #### Returns
 
 `Promise`\<`void`\>
+
+---
+
+<a id="updatewidget"></a>
+
+### updateWidget()
+
+> **updateWidget**(`widgetData`): `Promise`\<[`Widget`](../../models/classes/Widget.md)\>
+
+Update a widget for a subreddit.
+
+#### Parameters
+
+##### widgetData
+
+[`UpdateWidgetData`](../../models/type-aliases/UpdateWidgetData.md)
+
+The data for the widget to update.
+
+#### Returns
+
+`Promise`\<[`Widget`](../../models/classes/Widget.md)\>
+
+- The updated Widget object.
 
 ---
 

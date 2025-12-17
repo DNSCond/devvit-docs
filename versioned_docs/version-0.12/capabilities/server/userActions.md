@@ -41,12 +41,14 @@ Apps using user actions must follow these guidelines to be approved.
 To enable user actions, add the required permissions to your `devvit.json`:
 
 ```json title="devvit.json"
-"reddit": {
-  "asUser": [
-    "SUBMIT_POST",
-    "SUBMIT_COMMENT",
-    "SUBSCRIBE_TO_SUBREDDIT"
-  ]
+"permissions": {
+  "reddit": {
+    "asUser": [
+      "SUBMIT_POST",
+      "SUBMIT_COMMENT",
+      "SUBSCRIBE_TO_SUBREDDIT"
+    ]
+  }
 }
 ```
 
@@ -78,7 +80,7 @@ Apps that use `submitPost()` with `runAs: 'USER'` require `userGeneratedContent`
 
 This example uses a form to prompt the user for input and then submits a post as the user.
 
-```tsx
+```tsx title="server/index.ts"
 import { reddit } from '@devvit/web/server';
 
 // ...
@@ -97,7 +99,7 @@ router.post('/internal/post-create', async (_req, res) => {
     },
     subredditName,
     title: 'Post Title'
-    splash: { appDisplayName: 'Test App' }
+     entry: 'default',
   });
 
   res.json({ status: 'success', message: `Post created in subreddit ${subredditName}` });

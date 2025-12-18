@@ -1,0 +1,78 @@
+# A November to Remember - Developer Funds Edition
+
+Last month saw an incredible jump in payouts from Reddit’s Developer Funds! Thanks to a wave of new apps and games driving engagement and installs, our payouts more than doubled from October — yes, you read that right — surpassing **$163,000** in qualified rewards.
+
+Here are just some examples of games and apps that made a big splash this month:
+
+- [Admin Tattler](https://developers.reddit.com/apps/admin-tattler)
+- [AI Moderator](https://developers.reddit.com/apps/ai-moderator)
+- [AITACheck](https://developers.reddit.com/apps/aitacheck)
+- [App Reply Notify](https://developers.reddit.com/apps/app-reply-notify)
+- [Modmail Automator](https://developers.reddit.com/apps/auto-modmail)
+- [Auto Post Lock](https://developers.reddit.com/apps/auto-post-lock)
+- [Automod Sync](https://developers.reddit.com/apps/automod-sync)
+- [Extended Ban](https://developers.reddit.com/apps/ban-extended)
+- [Ban Hammer App](https://developers.reddit.com/apps/banhammerapp)
+- [Binary Grid](https://developers.reddit.com/apps/binarygrid)
+- [Bot Bouncer](https://developers.reddit.com/apps/bot-bouncer)
+- [Chive Cutter](https://developers.reddit.com/apps/chive-cutter)
+- [Nuzzle-The-Puzzle](https://developers.reddit.com/apps/colloni-tuddlee)
+- [Critical State App](https://developers.reddit.com/apps/criticalstateapp)
+- [Daily Thread](https://developers.reddit.com/apps/daily-thread)
+- [Discord Relay](https://developers.reddit.com/apps/discord-relay)
+- [Drawing App](https://developers.reddit.com/apps/drawing-app)
+- [Duel Take](https://developers.reddit.com/apps/dueltake)
+- [Evasion Guard](https://developers.reddit.com/apps/evasion-guard)
+- [Find the Sniper](https://developers.reddit.com/apps/findthesniperapp)
+- [Flair Assistant](https://developers.reddit.com/apps/flairassistant)
+- [Flood Assistant](https://developers.reddit.com/apps/floodassistant)
+- [GeoTap](https://developers.reddit.com/apps/geotap-app)
+- [Harvest Match](https://developers.reddit.com/apps/harvestmatch)
+- [Hexaword](https://developers.reddit.com/apps/hexaword-game)
+- [Hive Protect](https://developers.reddit.com/apps/hive-protect)
+- [Ignorit App](https://developers.reddit.com/apps/ignorit-app)
+- [Image Moderator](https://developers.reddit.com/apps/image-moderator)
+- [Image Polls](https://developers.reddit.com/apps/image-polls)
+- [Mobile Links](https://developers.reddit.com/apps/mobile-links)
+- [Moderator Mentions](https://developers.reddit.com/apps/mod-mentions)
+- [Modmail Quick User Summary](https://developers.reddit.com/apps/modmail-userinfo)
+- [Modmail Assistant](https://developers.reddit.com/apps/modmailassistant)
+- [Modmail to Discord](https://developers.reddit.com/apps/modmailtodiscord)
+- [Modqueue Nuke](https://developers.reddit.com/apps/modqueue-nuke)
+- [Modqueue Tools](https://developers.reddit.com/apps/modqueue-tools)
+- [Ninigrams](https://developers.reddit.com/apps/ninigrams-game)
+- [One Chess App](https://developers.reddit.com/apps/onechess-app)
+- [One Day Flair](https://developers.reddit.com/apps/onedayflair)
+- [Pixel Peeker](https://developers.reddit.com/apps/pixel-peeker)
+- [Pixelsandbox](https://developers.reddit.com/apps/pixelsandbox)
+- [Pocket Grids](https://developers.reddit.com/apps/pocket-grids)
+- [Press App](https://developers.reddit.com/apps/press-app)
+- [Modqueue Pruner](https://developers.reddit.com/apps/queue-pruner)
+- [Quiz Planet](https://developers.reddit.com/apps/quiz-planet-game)
+- [Read the Rules](https://developers.reddit.com/apps/read-the-rules)
+- [Reputator Bot](https://developers.reddit.com/apps/reputatorbot)
+- [Reason without Remembering](https://developers.reddit.com/apps/saved-response)
+- [Spam Nuke](https://developers.reddit.com/apps/spam-nuke)
+- [Spam Source Spotter](https://developers.reddit.com/apps/spam-src-spotter)
+- [Spotlight App](https://developers.reddit.com/apps/spotlight-app)
+- [Spotit](https://developers.reddit.com/apps/spottit-game)
+- [Stop AI](https://developers.reddit.com/apps/stop-ai)
+- [SubStats Bot](https://developers.reddit.com/apps/sub-stats-bot)
+- [SubGuard](https://developers.reddit.com/apps/subguard)
+- [Subscriber Count](https://developers.reddit.com/apps/subscriber-count)
+- [Subscriber Goal](https://developers.reddit.com/apps/subscriber-goal)
+- [Toolbox Notes Transfer](https://developers.reddit.com/apps/toolboxnotesxfer)
+- [Trending Tattler](https://developers.reddit.com/apps/trendingtattler)
+- [Word Herd](https://developers.reddit.com/apps/word-herd)
+- [Daily Guess](https://developers.reddit.com/apps/word-hunt)
+- [Word Strands](https://developers.reddit.com/apps/word-strands)
+- [Wordseekr Quotes](https://developers.reddit.com/apps/wordseekr2)
+- [YouTube Showcase](https://developers.reddit.com/apps/yt-app)
+
+If you’ve read that list and are thinking about creating games or unique experiences on Reddit, now’s the time to dive in. Check out the [Reddit Developer Funds](https://developers.reddit.com/docs/earn-money/reddit_developer_funds) and see how your creativity can be rewarded while building for the community.
+
+_Oh, so you want in on this and want to learn more?_
+
+[Reddit's Developer Funds](https://developers.reddit.com/docs/earn-money/reddit_developer_funds), powered by Devvit (Reddit's Developer Platform), champions a low barrier to entry. The current program lets eligible developers earn up to $167,500 per app by focusing on user engagement. Monetization can start once your creation hits just 500 qualified daily players maintained for seven days. You should also check out our previous blog post [here](https://developers.reddit.com/docs/blog/RDF) with more information\!
+
+Happy developing, and we’ll see you next year with more updates and payouts.

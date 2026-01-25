@@ -12,4 +12,3 @@ Redirecting to [Reddit Developer Funds](https://support.reddithelp.com/hc/en-us/
 <script>
   window.location.href = "https://support.reddithelp.com/hc/en-us/articles/27958169342996-Reddit-Developer-Funds-2025-Terms";
 </script>
-

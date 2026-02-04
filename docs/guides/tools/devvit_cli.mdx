@@ -264,6 +264,10 @@ Installs your app to your test subreddit and starts a playtest session. A new ve
 $ npx devvit playtest
 ```
 
+:::warning The Correct Way
+`devvit playtest` alone does not work with devvit web. use `npm run dev` instead.
+:::
+
 #### Optional argument
 
 - subreddit
@@ -277,6 +281,26 @@ If no subreddit is specified, the command will use the first available option fr
 
 If none exist, a new playtest subreddit will be automatically created.
 
+### devvit publish
+
+Creates a new app version, uploads it along with your source for review, and then files a publish request for you app.
+
+#### Usage
+
+```bash
+$ npx devvit publish [--config <value>] [--bump major|minor|patch | --version <value>] [--copy-paste] [-v]
+    [--public | --withdraw]
+```
+
+#### Optional arguments
+
+- `-v` `--verbose`: Enable verbose logging
+- `--config=<value>`: path to devvit config file
+- `--copy-paste`: Copy-paste the auth code instead of opening a browser
+- `--public`: Submit the app for review to be published publicly (as opposed to unlisted, the default)
+- `--version=<value>`: Explicit version number (e.g: 1.0.1)
+- `--withdraw`: Withdraw the most recent publish request for your app (if it exists and is pending)
+
 ### devvit settings list
 
 List settings for your app. These settings exist at the global app-scope and are available to all instances of your app.
@@ -286,6 +310,7 @@ List settings for your app. These settings exist at the global app-scope and are
 ```bash
 $ npx devvit settings list
 ```
+
 
 ### devvit settings set
 
